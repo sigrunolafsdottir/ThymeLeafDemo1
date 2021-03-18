@@ -19,7 +19,7 @@ public class GreetingController {
     }
 
     /*
-    //Denna kommer att overrida index.html
+    //Denna kommer att overrida index.html ifall den inte är kommenterad
     @GetMapping("/")
     public @ResponseBody
     String test(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
